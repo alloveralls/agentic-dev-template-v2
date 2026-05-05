@@ -5,6 +5,7 @@
 Use **jj (Jujutsu)** for all version control operations instead of git commands.
 
 Common jj equivalents:
+
 - `jj st` — show status
 - `jj diff` — show changes
 - `jj log` — show history
@@ -18,7 +19,7 @@ Common jj equivalents:
 
 Follow **Conventional Commits** format:
 
-```
+```text
 <type>[optional scope]: <description>
 
 [optional body]
@@ -52,7 +53,7 @@ Follow **Conventional Commits** format:
 
 Maintain logs in `.work-logs/` to enable resumption after unexpected shutdowns.
 
-```
+```text
 .work-logs/
   work/
     YYYY-MM-DD/
@@ -74,7 +75,7 @@ Maintain logs in `.work-logs/` to enable resumption after unexpected shutdowns.
 
 `.work-logs/work/YYYY-MM-DD/YYYYMMDDTHHmmss.md`
 
-```markdown
+````markdown
 ---
 id: WRK-YYYYMMDDTHHmmss
 date: YYYY-MM-DDTHH:mm:ss
@@ -92,7 +93,7 @@ status: in_progress | completed | interrupted
 
 ## Commands Run
 
-```
+```text
 <notable commands executed>
 ```
 
@@ -104,7 +105,7 @@ status: in_progress | completed | interrupted
 ## Notes
 
 <Anything surprising, blocked, or worth remembering.>
-```
+````
 
 **status values:**
 

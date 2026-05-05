@@ -85,5 +85,4 @@ jobs:
             AGENTS.md
             DESIGN.md
             .github/*.md
-            .github/**/*.md
             .work-logs/templates/*.md

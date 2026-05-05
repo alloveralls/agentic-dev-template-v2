@@ -8,7 +8,7 @@ Use this checklist after copying this repository to start a new internal AI agen
 - [ ] Review [AGENTS.md](./AGENTS.md) and update any repository-specific workflow, review, or ownership rules.
 - [ ] Customize [DESIGN.md](./DESIGN.md) by replacing placeholders, example tokens, and unresolved questions with project-specific design decisions.
 - [ ] Update [.github/CONTRIBUTING.md](./.github/CONTRIBUTING.md) if contributors need project-specific setup or commands.
-- [ ] Review [.github/README.md](./.github/README.md) and make sure the listed GitHub automation still matches the repository.
+- [ ] Review [.github/GITHUB_SETUP.md](./.github/GITHUB_SETUP.md) and make sure the listed GitHub automation still matches the repository.
 
 ## 2. Update Ownership and GitHub Settings
 

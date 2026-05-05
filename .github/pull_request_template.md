@@ -4,13 +4,14 @@ Describe the objective of this change and the problem it solves.
 
 ## Changes
 
-- 
+- TBD
 
 ## Verification
 
 - [ ] I verified the change locally
-- Verification details:
-  - 
+- Verification details
+
+  - TBD
 
 ## Impact
 
