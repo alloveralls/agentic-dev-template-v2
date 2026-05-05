@@ -1,5 +1,7 @@
-# `.github` Directory
+# `.github` Directory (Folder-Specific)
 
+This file is shown when browsing the `.github/` folder.
+The repository's main landing README is at [../README.md](../README.md).
 This directory contains repository-level GitHub configuration for internal development workflows.
 
 ## Files

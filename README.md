@@ -1,4 +1,4 @@
-# lectio
+# agentic-dev-template-v2
 
 This repository is currently being prepared as an internal development template.
 
@@ -11,7 +11,7 @@ This repository is currently being prepared as an internal development template.
 
 - [AGENTS.md](./AGENTS.md) — agent and repository operating rules
 - [DESIGN.md](./DESIGN.md) — reusable design template and project design reference
-- [.github/README.md](./.github/README.md) — GitHub-specific repository setup
+- [.github/CONTRIBUTING.md](./.github/CONTRIBUTING.md) — contributor workflow for pull requests and reviews
 
 ## Placeholder Sections To Fill Later
 
