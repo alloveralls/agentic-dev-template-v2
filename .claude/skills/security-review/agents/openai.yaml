@@ -1,0 +1,7 @@
+interface:
+  display_name: "Security Review"
+  short_description: "Review code for exploit paths and data exposure"
+  default_prompt: "Use $security-review to inspect the current changes for concrete security risks."
+
+policy:
+  allow_implicit_invocation: true

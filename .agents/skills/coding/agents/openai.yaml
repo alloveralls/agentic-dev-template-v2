@@ -1,0 +1,7 @@
+interface:
+  display_name: "Coding"
+  short_description: "Implement or change production code safely"
+  default_prompt: "Use $coding to implement a code change in the current repository and verify the result."
+
+policy:
+  allow_implicit_invocation: true

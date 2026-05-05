@@ -1,0 +1,7 @@
+interface:
+  display_name: "Release Notes"
+  short_description: "Turn shipped changes into clear release notes"
+  default_prompt: "Use $release-notes to draft release notes from the current changes or commit history."
+
+policy:
+  allow_implicit_invocation: true

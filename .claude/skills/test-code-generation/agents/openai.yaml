@@ -1,0 +1,7 @@
+interface:
+  display_name: "Test Code Generation"
+  short_description: "Create focused automated tests and regressions"
+  default_prompt: "Use $test-code-generation to add or update tests for the current code change."
+
+policy:
+  allow_implicit_invocation: true

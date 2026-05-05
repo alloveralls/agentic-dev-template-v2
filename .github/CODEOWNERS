@@ -1,0 +1,5 @@
+* @alloveralls
+/.github/ @alloveralls
+/.agents/ @alloveralls
+/AGENTS.md @alloveralls
+/DESIGN.md @alloveralls

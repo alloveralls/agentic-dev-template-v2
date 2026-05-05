@@ -1,0 +1,7 @@
+interface:
+  display_name: "Code Review"
+  short_description: "Find correctness and regression risks in code"
+  default_prompt: "Use $code-review to review the current change set and report findings first."
+
+policy:
+  allow_implicit_invocation: true
