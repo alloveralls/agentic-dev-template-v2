@@ -12,6 +12,7 @@ This repository is currently being prepared as an internal development template.
 - [AGENTS.md](./AGENTS.md) — agent and repository operating rules
 - [DESIGN.md](./DESIGN.md) — reusable design template and project design reference
 - [.github/CONTRIBUTING.md](./.github/CONTRIBUTING.md) — contributor workflow for pull requests and reviews
+- [.github/GITHUB_SETUP.md](./.github/GITHUB_SETUP.md) — GitHub repository configuration overview
 
 ## Placeholder Sections To Fill Later
 
