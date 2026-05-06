@@ -40,7 +40,6 @@ link-check:
 	lychee \
 		--verbose \
 		--no-progress \
-		--exclude-mail \
 		--timeout 20 \
 		--max-concurrency 4 \
 		--retry-wait-time 2 \

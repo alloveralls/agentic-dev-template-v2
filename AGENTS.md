@@ -182,6 +182,10 @@ Use this workflow for changes that are delivered through GitHub pull requests.
 - Keep all version-control actions in `jj`. Do not switch to a git-first local flow.
 - Use `gh` as the standard interface for GitHub operations.
 - Keep PR scope small enough to review in one pass.
+- Do not commit or push directly to `main`.
+- All changes must be delivered through a pull request.
+- Exception: direct commits to `main` are allowed only when the user explicitly instructs: `push directly to main`.
+- Do not merge a pull request unless the user explicitly asks for merge execution.
 
 ### 1) Prepare Local Change
 
@@ -218,7 +222,23 @@ Use this workflow for changes that are delivered through GitHub pull requests.
   - All required **CI checks green**
 - Do not merge when CI is failing or approval is missing.
 
-### 5) Post-Merge
+### 5) Enforcement Checklist
+
+Before opening a PR:
+
+- Confirm you are not on `main` for direct delivery.
+- Confirm a dedicated change exists via `jj new`.
+- Confirm commit message follows Conventional Commits.
+- Confirm only intended files are included in `jj diff`.
+
+Before merging a PR:
+
+- Confirm explicit user instruction to merge.
+- Confirm at least 1 approval is present.
+- Confirm all required checks are green.
+- Confirm merge method is Squash merge.
+
+### 6) Post-Merge
 
 1. Confirm PR is merged on GitHub.
 2. Clean up obsolete bookmark(s) locally.
