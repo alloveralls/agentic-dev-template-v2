@@ -218,9 +218,8 @@ Use this workflow for changes that are delivered through GitHub pull requests.
 
 - Merge strategy: **Squash merge**
 - Required before merge:
-  - At least **1 approval**
   - All required **CI checks green**
-- Do not merge when CI is failing or approval is missing.
+- Do not merge when CI is failing.
 
 ### 5) Enforcement Checklist
 
@@ -234,7 +233,6 @@ Before opening a PR:
 Before merging a PR:
 
 - Confirm explicit user instruction to merge.
-- Confirm at least 1 approval is present.
 - Confirm all required checks are green.
 - Confirm merge method is Squash merge.
 
